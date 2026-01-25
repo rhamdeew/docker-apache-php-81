@@ -1,4 +1,4 @@
-FROM php:8.1-apache-bullseye
+FROM php:8.1-apache-trixie
 RUN apt-get update && \
     apt-get -y install libmcrypt4 libfreetype6 libjpeg62-turbo libpng16-16 libxpm4 wget mariadb-client msmtp gcc && \
     apt-get -y install libmcrypt-dev libicu-dev libpng-dev libjpeg-dev libfreetype6-dev libxpm-dev libzip-dev && \
